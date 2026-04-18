@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AI Solutions | Inteligência Artificial para o seu negócio",
-  description: "Transformamos processos com soluções de IA personalizadas. Automação, análise de dados e modelos de linguagem para escalar seu negócio.",
+  title: "Kairos | Engenharia de software e inteligência artificial",
+  description: "Kairos desenvolve soluções de software sob medida e inteligência artificial para empresas. Criadora do EllO ERP.",
 };
 
 export default function RootLayout({

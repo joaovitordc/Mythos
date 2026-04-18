@@ -19,8 +19,8 @@ export default function Navbar() {
       className="fixed top-0 left-0 right-0 z-50 px-8 lg:px-32 py-5 flex items-center justify-between"
     >
       {/* Logo */}
-      <a href="#" className="text-white font-semibold text-base tracking-tight">
-        Mythos
+      <a href="/" className="text-white font-semibold text-base tracking-tight">
+        Kairos
       </a>
 
       {/* Links */}
@@ -38,7 +38,7 @@ export default function Navbar() {
 
       {/* CTA */}
       <a
-        href={`https://wa.me/5527996158264?text=${encodeURIComponent("Olá! Gostaria de pedir um orçamento para soluções da Mythos AI.")}`}
+        href={`https://wa.me/5527996158264?text=${encodeURIComponent("Olá! Gostaria de pedir um orçamento para soluções da Kairos.")}`}
         target="_blank"
         rel="noopener noreferrer"
       >

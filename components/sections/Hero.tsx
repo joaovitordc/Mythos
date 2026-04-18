@@ -74,7 +74,7 @@ export default function Hero() {
           className="mt-8"
         >
           <a
-            href={`https://wa.me/5527996158264?text=${encodeURIComponent("Olá! Gostaria de pedir um orçamento para soluções da Mythos AI.")}`}
+            href={`https://wa.me/5527996158264?text=${encodeURIComponent("Olá! Gostaria de pedir um orçamento para soluções da Kairos.")}`}
             target="_blank"
             rel="noopener noreferrer"
           >

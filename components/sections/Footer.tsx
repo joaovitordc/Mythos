@@ -11,7 +11,8 @@ const nav = [
 ];
 
 const termos = [
-  { label: "Política de privacidade", href: "#" },
+  { label: "Política de privacidade", href: "/security#privacidade" },
+  { label: "Política de segurança", href: "/security" },
   { label: "Termos de uso", href: "#" },
 ];
 
@@ -63,16 +64,16 @@ export default function Footer() {
         {/* Brand */}
         <div className="flex flex-col gap-4 max-w-xs">
           <span className="text-white font-semibold text-base tracking-tight">
-            Mythos
+            Kairos
           </span>
           <p className="text-sm text-white/50 leading-relaxed">
-            Engenharia de ponta e inteligência artificial para escalar o seu negócio.
+            Engenharia de software e inteligência artificial. Criadora do EllO ERP.
           </p>
           <a
-            href="mailto:contato@mythosai.com.br"
+            href="mailto:contato@kairos.com.br"
             className="text-sm text-white/55 hover:text-white/80 transition-colors"
           >
-            contato@mythosai.com.br
+            contato@kairos.com.br
           </a>
         </div>
 
@@ -138,7 +139,7 @@ export default function Footer() {
 
       {/* Bottom bar */}
       <div className="border-t border-white/[0.06] py-6 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-white/35">
-        <span>© 2025 Mythos AI Solutions. Todos os direitos reservados.</span>
+        <span>© 2026 Kairos. Todos os direitos reservados.</span>
         <span className="hidden md:block">CNPJ: 00.000.000/0001-00</span>
       </div>
     </footer>
