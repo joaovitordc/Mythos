@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Política de Segurança e Privacidade | Kairos",
@@ -10,6 +11,19 @@ export default function SecurityPage() {
   return (
     <main className="min-h-screen bg-black text-white px-8 lg:px-32 pt-32 pb-24">
       <div className="max-w-3xl mx-auto">
+        <div className="mb-10 flex gap-2 text-xs uppercase tracking-[0.18em]">
+          <Link href="/security" className="text-white">
+            PT
+          </Link>
+          <span className="text-white/20">·</span>
+          <Link
+            href="/security/en"
+            className="text-white/40 hover:text-white/70 transition-colors"
+          >
+            EN
+          </Link>
+        </div>
+
         <header className="mb-16 border-b border-white/10 pb-10">
           <p className="text-[11px] text-white/60 tracking-[0.18em] uppercase font-medium mb-4">
             Kairos · Information Security
